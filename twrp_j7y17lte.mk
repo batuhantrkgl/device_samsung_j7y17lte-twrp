@@ -17,7 +17,7 @@
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
 	charger_res_images \
@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j7y17lte
-PRODUCT_NAME := omni_j7y17lte
+PRODUCT_NAME := twrp_j7y17lte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy J7 Pro
 PRODUCT_MANUFACTURER := Samsung

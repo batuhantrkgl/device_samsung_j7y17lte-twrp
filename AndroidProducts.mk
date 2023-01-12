@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_j7y17lte.mk
+     $(LOCAL_DIR)/twrp_j7y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_j7y17lte-user \
-    omni_j7y17lte-userdebug \
-    omni_j7y17lte-eng
+    twrp_j7y17lte-user \
+    twrp_j7y17lte-userdebug \
+    twrp_j7y17lte-eng
